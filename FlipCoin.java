@@ -19,6 +19,7 @@ public class FlipCoin {
 			tail++;
 		}
 		int perOfHead = (head / t) * 100;
+
 		int perOfTail = (tail / t) * 100;
 		System.out.println("Percentage of head= " + perOfHead);
 		System.out.println("Percentage of tail= " + perOfTail);
