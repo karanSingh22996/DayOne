@@ -17,6 +17,7 @@ public class PowerOfTwo {
 		System.out.println("enter the number and power");
 		int n = sc.nextInt();
 		int p = sc.nextInt();
+
 		int pow = power(n, p);
 		System.out.println("Table of two");
 		for (int i = 1; i < pow; i++) {
